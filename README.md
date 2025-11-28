@@ -38,26 +38,6 @@ Thanks to a custom setup by my friend [RifatMahmudno-1](https://github.com/Rifat
 
 This makes the project feel cleaner, simpler, and easier to run.
 
-## Installation
-
-```bash
-git clone https://github.com/Tasfin660/cocoa-insights.git
-cd cocoa-insights
-npm install
-npm run dev
-```
-
-## Environment Variables
-
-To login and use the website, create a `.env` file in the client:
-
-```env
-VITE_USERNAME=yourName
-VITE_PASSWORD=yourPassword
-```
-
-These credentials are used for the simple login system.
-
 ## Why I Built This
 
 This is my first **MERN stack project**. I built it primarily to **learn and get familiar with the stack**. I used **React Router** and **React Reducer with Context API** on the frontend, and created a **custom backend with Express**.
