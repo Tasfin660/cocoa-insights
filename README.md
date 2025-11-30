@@ -38,7 +38,7 @@ Thanks to a custom setup by my friend [RifatMahmudno-1](https://github.com/Rifat
 
 This makes the project feel cleaner, simpler, and easier to run.
 
-## Why I Built This
+## Project Background
 
 This is my first **MERN stack project**. I built it primarily to **learn and get familiar with the stack**. I used **React Router** and **React Reducer with Context API** on the frontend, and created a **custom backend with Express**.
 
