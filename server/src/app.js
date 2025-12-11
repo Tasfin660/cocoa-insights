@@ -32,6 +32,12 @@ app.use(
     join(dirname(fileURLToPath(import.meta.url)), "../public/robots.txt")
   )
 );
+app.use(
+  "/sitemap.xml",
+  express.static(
+    join(dirname(fileURLToPath(import.meta.url)), "../public/sitemap.xml")
+  )
+);
 
 // handle frontend
 await vite(express, app);
