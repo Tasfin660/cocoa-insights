@@ -38,6 +38,12 @@ app.use(
     join(dirname(fileURLToPath(import.meta.url)), "../public/sitemap.xml")
   )
 );
+app.use(
+  "/og-image.png",
+  express.static(
+    join(dirname(fileURLToPath(import.meta.url)), "../public/og-image.png")
+  )
+);
 
 // handle frontend
 await vite(express, app);
